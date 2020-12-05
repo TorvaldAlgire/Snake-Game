@@ -21,6 +21,8 @@ var snake;
         if (snake.eat(fruit)) {
             fruit.pickLocation();
         }
+
+        snake.checkCollision();
     }, 250); // Not sure what this is doing here, what does the 250 mean?
 }());
 
